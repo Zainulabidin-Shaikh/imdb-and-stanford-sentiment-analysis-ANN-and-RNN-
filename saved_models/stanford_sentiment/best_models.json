@@ -1,0 +1,59 @@
+{
+  "best_model_type": "ann",
+  "best_model_path": "D:\\SENTIMENT_ANALYSIS_PERPLEXITY\\saved_models\\stanford_sentiment\\ann_model_20250904_004704.h5",
+  "tokenizer_path": "D:\\SENTIMENT_ANALYSIS_PERPLEXITY\\saved_models\\stanford_sentiment\\tokenizer.pkl",
+  "dataset": "stanford_sentiment",
+  "ann_info": {
+    "model_type": "ann",
+    "dataset": "stanford_sentiment",
+    "config": {
+      "vocab_size": 9737,
+      "embedding_dim": 128,
+      "max_length": 200,
+      "hidden_units": [
+        256,
+        128,
+        64
+      ],
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "epochs": 25
+    },
+    "metrics": {
+      "accuracy": 0.8620093377139892,
+      "precision": 0.8209046454767727,
+      "recall": 0.9268461007591442,
+      "f1_score": 0.8706645056726094
+    },
+    "timestamp": "20250904_004704",
+    "model_path": "D:\\SENTIMENT_ANALYSIS_PERPLEXITY\\saved_models\\stanford_sentiment\\ann_model_20250904_004704.h5",
+    "tokenizer_path": "D:\\SENTIMENT_ANALYSIS_PERPLEXITY\\saved_models\\stanford_sentiment\\tokenizer.pkl"
+  },
+  "rnn_info": {
+    "model_type": "rnn",
+    "dataset": "stanford_sentiment",
+    "config": {
+      "vocab_size": 9737,
+      "embedding_dim": 128,
+      "max_length": 200,
+      "lstm_units": 128,
+      "bidirectional": true,
+      "dropout_rate": 0.3,
+      "recurrent_dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "epochs": 25
+    },
+    "metrics": {
+      "accuracy": 0.8526716237247104,
+      "precision": 0.8800148588410104,
+      "recall": 0.8174603174603174,
+      "f1_score": 0.8475849731663685
+    },
+    "timestamp": "20250904_004704",
+    "model_path": "D:\\SENTIMENT_ANALYSIS_PERPLEXITY\\saved_models\\stanford_sentiment\\rnn_model_20250904_004704.h5",
+    "tokenizer_path": "D:\\SENTIMENT_ANALYSIS_PERPLEXITY\\saved_models\\stanford_sentiment\\tokenizer.pkl"
+  },
+  "comparison_timestamp": "20250904_004704"
+}
